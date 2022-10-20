@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#mommy {
+    margin-top: 60px;
+}
+
+#mommy h2 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#mommy {
+    font-size: 20px;
+}
+#rH {
+    margin: 10px;
+}
+#rW {
+    margin: 10px;
+}
+#rresults {
+  display:none;
+  margin-top: 50px;
+}
+
+#BMIshow {
+  padding: 4px;
+  background-color: rgb(255,127,127);
+  border-radius: 4px;
+}
+#C {
+  width: auto;
+  max-width: 450px;
+      margin: 0px auto;
+}
+#Context {
+  background-color: lightgray;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 18px;
+  border: 2px solid black;
+}

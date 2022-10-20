@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bully BMI</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Bully BMI</h1>
+        <h3>The first ever brutally honest BMI calculator</h3>
+    </header>
+    <section id="mommy">
+        <h2>Enter Your Data</h2>
+        <input type="radio" name ="units" onclick="goIN()"> in/lbs &nbsp; &nbsp; &nbsp; &nbsp; 
+        <input type="radio" name ="units" checked onclick="goCM()"> cm/kg        
+        <br>
+        <p><label id="rH">Height (cm):</label><input type="text" id="height"> </p>
+        <p><label id="rW">Weight (kg):</label><input type="text" id="weight"> </p>
+      <button id="Results" onclick="showResults()">Get Results</button> 
+    </section>
+  <section id="rresults">
+      <label id="BMIShow"> </label> <br>
+      <div id="C"><p id="Context"></p></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
